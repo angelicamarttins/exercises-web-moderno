@@ -2,11 +2,10 @@
 
 const repeat = (element, repeat) => {
     let array = new Array;
-    
+
     for (let i = 0; i < repeat; i++) {
         array.push(element);
     }
-
     return array;
 };
 

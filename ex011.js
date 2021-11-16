@@ -2,7 +2,10 @@
 
 const newArray = array => {
     let arr = new Array;
-    arr.push(array[0], array[array.length - 1]);
+    let firstElement = array[0];
+    let lastElement = array[array.length - 1];
+    
+    arr.push(firstElement, lastElement);
     return arr;
 };
 
